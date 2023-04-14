@@ -102,3 +102,4 @@ def test_process_watermelon_minus():
     expected_result = "Not valid"
     actual_result = process_weight(weight, price)
     assert expected_result == actual_result
+

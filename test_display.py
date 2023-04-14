@@ -8,6 +8,8 @@ import pytest
     (1, 0, 1, 125),
     (-1, 5, 5, "Not valid"),
     ("2", 5, 5, "input number"),
+    (2, -2, 2, "Not valid"),
+    (1.5, 2.5, 3, 462.5),
 ])
 def test_display_sum_price(orange, mango, watermelon, expected_result):
     actual_result = sum_of_price(orange, mango, watermelon)
