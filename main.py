@@ -29,4 +29,4 @@ except ValueError:
         input_watermelon = str(input_watermelon)
 
 result = sum_of_price(input_orange, input_mango, input_watermelon)
-print(result)
+print("Total Price is: ", result)
